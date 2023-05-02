@@ -1,0 +1,21 @@
+{
+    "name": "pedro/art-api",
+    "description": "api para articulos",
+    "type": "project",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedrocogar1990",
+            "email": "97977004+Pedrocogar1990@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "fakerphp/faker": "^1.21"
+    }
+}
